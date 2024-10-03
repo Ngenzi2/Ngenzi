@@ -29,7 +29,7 @@ FILE_NAME_CONVERT = ('C:\app\Divin\product\21c\oradata\XE\pdbseed', 'C:\app\Divi
 
 - **Explanation:** This command creates a new PDB named `plsql_class2024db` with an administrative user `di_plsqlauca`. The `FILE_NAME_CONVERT` parameter specifies the conversion of the seed database files to the new PDB location.
 
-### 2. Create and Delete a Temporary PDB
+ 2. Create and Delete a Temporary PDB
 
 - **Task Description:** Created a temporary PDB named `di_to_delete_pdb` for testing purposes and deleted it afterward.
 - **Purpose:** This exercise allows for testing PDB management commands and understanding the lifecycle of a PDB.
