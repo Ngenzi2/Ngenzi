@@ -25,18 +25,18 @@ SQL Commands Used:
 
 Create the PDB:
 sql
-Copy code
+
 CREATE PLUGGABLE DATABASE di_to_delete_pdb
 ADMIN USER admin IDENTIFIED BY nivid123
 ROLES = (DBA)
 FILE_NAME_CONVERT = ('C:\app\Divin\product\21c\oradata\XE\pdbseed', 'C:\app\Divin\product\21c\oradata\XE\di_to_delete_pdb');
 Open the PDB:
 sql
-Copy code
+
 ALTER PLUGGABLE DATABASE di_to_delete_pdb OPEN;
 Close the PDB:
 sql
-Copy code
+
 ALTER PLUGGABLE DATABASE di_to_delete_pdb CLOSE IMMEDIATE;
 Drop the PDB:
 sql
